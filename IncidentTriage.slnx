@@ -1,5 +1,9 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="src/IncidentTriage.Application/IncidentTriage.Application.csproj" />
     <Project Path="src/IncidentTriage.Domain/IncidentTriage.Domain.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/IncidentTriage.Tests/IncidentTriage.Tests.csproj" />
   </Folder>
 </Solution>
