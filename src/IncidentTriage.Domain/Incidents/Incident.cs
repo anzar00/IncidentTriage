@@ -8,8 +8,8 @@ public enum IncidentSeverity
     Critical
 }
 
-public sealed record Incident (
-    string Id,
+public sealed record Incident(
+    Guid Id,
     string ServiceId,
     string ServiceVersion,
     IncidentSeverity Severity,

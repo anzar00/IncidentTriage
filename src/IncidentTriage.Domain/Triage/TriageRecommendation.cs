@@ -2,16 +2,15 @@ namespace IncidentTriage.Domain.Triage;
 
 public enum TriageAction
 {
-    NoAction, 
+    NoAction,
     InvestigateFurther
 }
 
 public sealed record TriageRecommendation(
-    string Id, 
-    string IncidentId, 
+    Guid Id,
+    Guid IncidentId,
     string TargetServiceId,
-    string TargetServiceVersion, 
-    TriageAction Action, 
+    string TargetServiceVersion,
+    TriageAction Action,
     string Rationale,
-    DateTimeOffset CreatedAt
-);
+    DateTimeOffset CreatedAt);
