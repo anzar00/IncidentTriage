@@ -6,7 +6,7 @@ public enum TriageAction
     InvestiageFurther
 }
 
-public sealed record TriaggeRecommendation(
+public sealed record TriageRecommendation(
     string Id, 
     string IncidentId, 
     string TargetServiceId,
