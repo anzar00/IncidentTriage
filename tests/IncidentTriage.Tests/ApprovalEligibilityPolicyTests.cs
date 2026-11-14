@@ -1,4 +1,4 @@
-using IncidentTriage.Domain.Triage;
+﻿using IncidentTriage.Domain.Triage;
 using IncidentTriage.Domain.Approvals;
 using IncidentTriage.Application.Approvals;
 using Xunit;
@@ -13,7 +13,7 @@ public sealed class ApprovalEligibilityPolicyTests
         IncidentId: "incident-1",
         TargetServiceId: "service-1",
         TargetServiceVersion: "1.0.0",
-        Action: TriageAction.InvestiageFurther,
+        Action: TriageAction.InvestigateFurther,
         Rationale: "Investigate further due to high severity.",
         CreatedAt: _now);
 

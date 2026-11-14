@@ -3,7 +3,7 @@ namespace IncidentTriage.Domain.Triage;
 public enum TriageAction
 {
     NoAction, 
-    InvestiageFurther
+    InvestigateFurther
 }
 
 public sealed record TriageRecommendation(
